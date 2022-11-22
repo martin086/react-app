@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <ItemListContainer/>
+      <ItemListContainer greeting={"¡Bienvenido a nuestra tienda!"}/>
       <Search busqueda={"Buscar Productos"}/>
     </>
   );

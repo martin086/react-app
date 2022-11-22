@@ -8,6 +8,15 @@ export default function Categories() {
             <a className="dropdown-item" href="#">Caño de Cobre</a>
             <a className="dropdown-item" href="#">Aislación</a>
             <a className="dropdown-item" href="#">Gases Refrigerantes</a>
+            <a className="dropdown-item" href="#">Cable Taller</a>
+            <a className="dropdown-item" href="#">Manguera Cristal</a>
+            <a className="dropdown-item" href="#">Cintas PVC</a>
+            <a className="dropdown-item" href="#">Ménsulas</a>
+            <a className="dropdown-item" href="#">Motcompresores</a>
+            <a className="dropdown-item" href="#">Herramientas</a>
+            <a className="dropdown-item" href="#">Accesorios</a>
+            <a className="dropdown-item" href="#">Varios</a>
+            <a className="dropdown-item" href="#">Aire Acondicionado</a>
             <div className="dropdown-divider" />
             <a className="dropdown-item" href="#">Ver Todas</a>
         </div>
