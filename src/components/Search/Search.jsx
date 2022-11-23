@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Search({busqueda}) {
   return (
-    <form className="d-flex">
+    <form className="d-flex mb-2 mx-2">
         <input className="form-control me-sm-2" type="text" placeholder={busqueda} aria-label="Search" />
         <button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
