@@ -11,7 +11,7 @@ const App = () => {
       <Navbar/>
       <Search busqueda={"Buscar Productos"}/>
       <ItemListContainer/>
-      <ItemDetailContainer/>
+      
     </>
   );
 }
