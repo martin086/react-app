@@ -181,7 +181,7 @@
     {
        "id":41,
        "nombre":"Cable Taller",
-       "tipo":"3x1.5mm\"",
+       "tipo":"3x1.5mm",
        "precio":1.13,
        "unidad":"mt",
        "cantidad":1, 

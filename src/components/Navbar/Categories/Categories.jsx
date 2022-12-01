@@ -12,7 +12,7 @@ export default function Categories() {
             <a className="dropdown-item" href="#">Manguera Cristal</a>
             <a className="dropdown-item" href="#">Cintas PVC</a>
             <a className="dropdown-item" href="#">Ménsulas</a>
-            <a className="dropdown-item" href="#">Motcompresores</a>
+            <a className="dropdown-item" href="#">Motocompresores</a>
             <a className="dropdown-item" href="#">Herramientas</a>
             <a className="dropdown-item" href="#">Accesorios</a>
             <a className="dropdown-item" href="#">Varios</a>
