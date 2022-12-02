@@ -16,13 +16,10 @@ const App = () => {
           <Route path='/' element={<ItemListContainer/>}/>
           <Route path='/product/:id' element={<ItemDetailContainer/>}/>
           <Route path='/category/:id' element={<ItemListContainer/>}/>
-          <Route path='/' element={<Cart/>}/>
+          <Route path='/cart' element={<Cart/>}/>
           {/* <Search busqueda={"Buscar Productos"}/> */}
         </Routes>
       </BrowserRouter>
-      
-      
-      
     </>
   );
 }
