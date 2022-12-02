@@ -1,6 +1,7 @@
 [
     {
        "id":11,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"1/4\"",
        "precio":4.49,
@@ -11,6 +12,7 @@
     },
     {
        "id":12,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"5/16\"",
        "precio":5.67,
@@ -21,6 +23,7 @@
     },
     {
        "id":13,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"3/8\"",
        "precio":7.15,
@@ -31,6 +34,7 @@
     },
     {
        "id":14,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"1/2\"",
        "precio":9.67,
@@ -41,6 +45,7 @@
     },
     {
        "id":15,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"5/8\"",
        "precio":12.46,
@@ -51,6 +56,7 @@
     },
     {
        "id":16,
+       "idCategoria":1,
        "nombre":"Caño de Cobre",
        "tipo":"3/4\"",
        "precio":14.30,
@@ -61,6 +67,7 @@
     },
     {
        "id":21,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"1/4\"",
        "precio":2.07,
@@ -71,6 +78,7 @@
     },
     {
        "id":22,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"5/16\"",
        "precio":2.14,
@@ -81,6 +89,7 @@
     },
     {
        "id":23,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"3/8\"",
        "precio":2.21,
@@ -91,6 +100,7 @@
     },
     {
        "id":24,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"1/2\"",
        "precio":2.51,
@@ -101,6 +111,7 @@
     },
     {
        "id":25,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"5/8\"",
        "precio":2.80,
@@ -110,6 +121,7 @@
     },
     {
        "id":26,
+       "idCategoria":2,
        "nombre":"Aislación Elastomérica 9mm",
        "tipo":"3/4\"",
        "precio":3.10,
@@ -120,6 +132,7 @@
     },
     {
        "id":31,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"R22",
        "precio":30.28,
@@ -130,6 +143,7 @@
     },
     {
        "id":32,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"R410",
        "precio":14.57,
@@ -140,6 +154,7 @@
     },
     {
        "id":33,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"R134",
        "precio":12.33,
@@ -150,6 +165,7 @@
     },
     {
        "id":34,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"R404",
        "precio":15.83,
@@ -160,6 +176,7 @@
     },
     {
        "id":35,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"MO49",
        "precio":17.57,
@@ -170,6 +187,7 @@
     },
     {
        "id":36,
+       "idCategoria":3,
        "nombre":"Gases Refrigerantes",
        "tipo":"141b",
        "precio":25.84,
@@ -180,6 +198,7 @@
     },
     {
        "id":41,
+       "idCategoria":4,
        "nombre":"Cable Taller",
        "tipo":"3x1.5mm",
        "precio":1.13,
@@ -190,6 +209,7 @@
     },
     {
        "id":42,
+       "idCategoria":4,
        "nombre":"Cable Taller",
        "tipo":"3x2.5mm",
        "precio":1.60,
@@ -200,6 +220,7 @@
     },
     {
        "id":43,
+       "idCategoria":4,
        "nombre":"Cable Taller",
        "tipo":"4x1.5mm",
        "precio":1.24,
@@ -210,6 +231,7 @@
     },
     {
        "id":44,
+       "idCategoria":4,
        "nombre":"Cable Taller",
        "tipo":"5x1.5mm",
        "precio":1.73,
@@ -220,6 +242,7 @@
     },
     {
        "id":45,
+       "idCategoria":4,
        "nombre":"Cable Taller",
        "tipo":"5x2.5mm",
        "precio":2.53,
@@ -230,6 +253,7 @@
     },
     {
        "id":51,
+       "idCategoria":5,
        "nombre":"Manguera Cristal",
        "tipo":"1/4\"",
        "precio":0.22,
@@ -240,6 +264,7 @@
     },
     {
        "id":52,
+       "idCategoria":5,
        "nombre":"Manguera Cristal",
        "tipo":"1/2\"",
        "precio":0.37,
@@ -250,6 +275,7 @@
     },
     {
        "id":53,
+       "idCategoria":5,
        "nombre":"Manguera Cristal",
        "tipo":"5/8\"",
        "precio":0.52,
@@ -260,6 +286,7 @@
     },
     {
        "id":61,
+       "idCategoria":6,
        "nombre":"Cinta de PVC",
        "tipo":"Tacsa Blanca S/adh",
        "precio":3.17,
@@ -270,6 +297,7 @@
     },
     {
        "id":62,
+       "idCategoria":6,
        "nombre":"Cinta de PVC",
        "tipo":"Tacsa Blanca C/adh",
        "precio":5.12,
@@ -280,6 +308,7 @@
     },
     {
        "id":63,
+       "idCategoria":6,
        "nombre":"Cinta de PVC",
        "tipo":"Económica Blanca S/adh",
        "precio":2.92,
@@ -290,6 +319,7 @@
     },
     {
        "id":64,
+       "idCategoria":6,
        "nombre":"Cinta de PVC",
        "tipo":"Económica Blanca C/adh",
        "precio":3.65,
@@ -300,6 +330,7 @@
     },
     {
        "id":71,
+       "idCategoria":6,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"M42 Epoxi",
        "precio":14.01,
@@ -310,6 +341,7 @@
     },
     {
        "id":72,
+       "idCategoria":7,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"M49 Epoxi",
        "precio":14.39,
@@ -320,6 +352,7 @@
     },
     {
        "id":73,
+       "idCategoria":7,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"M62 Epoxi",
        "precio":18.90,
@@ -330,6 +363,7 @@
     },
     {
        "id":74,
+       "idCategoria":7,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"Económica 40cm",
        "precio":8.83,
@@ -340,6 +374,7 @@
     },
     {
        "id":75,
+       "idCategoria":7,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"Económica 50cm",
        "precio":10.81,
@@ -350,6 +385,7 @@
     },
     {
        "id":76,
+       "idCategoria":7,
        "nombre":"Ménsulas Reforzadas",
        "tipo":"Económica 60cm",
        "precio":17.86,
@@ -360,6 +396,7 @@
     },
     {
        "id":81,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/6HP",
        "precio":93.79,
@@ -370,6 +407,7 @@
     },
     {
        "id":82,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/5HP",
        "precio":97.33,
@@ -380,6 +418,7 @@
     },
     {
        "id":83,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/4HP",
        "precio":116.43,
@@ -390,6 +429,7 @@
     },
     {
        "id":84,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/4+HP",
        "precio":118.52,
@@ -400,6 +440,7 @@
     },
     {
        "id":85,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/3HP",
        "precio":135.20,
@@ -410,6 +451,7 @@
     },
     {
        "id":86,
+       "idCategoria":8,
        "nombre":"Motocompresores",
        "tipo":"1/3+HP",
        "precio":139.39,
@@ -420,6 +462,7 @@
     },
     {
        "id":91,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Manifold VALUE R22",
        "precio":105.84,
@@ -430,6 +473,7 @@
     },
     {
        "id":92,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Manifold VALUE R410",
        "precio":119.91,
@@ -440,6 +484,7 @@
     },
     {
        "id":93,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Bomba de Vacio i240 VALUE",
        "precio":344.78,
@@ -450,6 +495,7 @@
     },
     {
        "id":94,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Llave crique VALUE",
        "precio":8.40,
@@ -460,6 +506,7 @@
     },
     {
        "id":95,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Pinza selladora VALUE",
        "precio":11.19,
@@ -470,6 +517,7 @@
     },
     {
        "id":96,
+       "idCategoria":9,
        "nombre":"Herramientas",
        "tipo":"Pinza cortacapilar VALUE",
        "precio":12.70,
@@ -480,6 +528,7 @@
     },
     {
        "id":101,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Caja Preinstalación SARSA",
        "precio":4.73,
@@ -490,6 +539,7 @@
     },
     {
        "id":102,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Tirafondo+Tarugo N°10",
        "precio":0.24,
@@ -500,6 +550,7 @@
     },
     {
        "id":103,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Tornillo+Tarugo N°6",
        "precio":0.07,
@@ -510,6 +561,7 @@
     },
     {
        "id":104,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Patas de Goma p/piso",
        "precio":2.04,
@@ -520,6 +572,7 @@
     },
     {
        "id":105,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Patas de Goma p/ménsula",
        "precio":1.72,
@@ -530,6 +583,7 @@
     },
     {
        "id":106,
+       "idCategoria":10,
        "nombre":"Accesorios",
        "tipo":"Pico Drenaje AA SARSA",
        "precio":0.83,
@@ -540,6 +594,7 @@
     },
     {
        "id":111,
+       "idCategoria":11,
        "nombre":"Varios",
        "tipo":"Control Remoto Universal",
        "precio":5.37,
@@ -550,6 +605,7 @@
     },
     {
        "id":112,
+       "idCategoria":11,
        "nombre":"Varios",
        "tipo":"Pila AAA",
        "precio":0.58,
@@ -560,6 +616,7 @@
     },
     {
        "id":113,
+       "idCategoria":11,
        "nombre":"Varios",
        "tipo":"Pila AA",
        "precio":0.51,
@@ -570,6 +627,7 @@
     },
     {
        "id":114,
+       "idCategoria":11,
        "nombre":"Varios",
        "tipo":"Bomba Drenaje Flowita 10l/h",
        "precio":78.21,
@@ -580,6 +638,7 @@
     },
     {
        "id":121,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 2250fr ON-OFF",
        "precio":444,
@@ -590,6 +649,7 @@
     },
     {
        "id":122,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 3000fr ON-OFF",
        "precio":489,
@@ -600,6 +660,7 @@
     },
     {
        "id":123,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 4500fr ON-OFF",
        "precio":728,
@@ -610,6 +671,7 @@
     },
     {
        "id":124,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 6000fr ON-OFF",
        "precio":871,
@@ -620,6 +682,7 @@
     },
     {
        "id":125,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 2250fr INVERTER",
        "precio":595,
@@ -630,6 +693,7 @@
     },
     {
        "id":126,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 3000fr INVERTER",
        "precio":619,
@@ -640,6 +704,7 @@
     },
     {
        "id":127,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 4500fr INVERTER",
        "precio":892,
@@ -650,6 +715,7 @@
     },
     {
        "id":128,
+       "idCategoria":12,
        "nombre":"Aire Acondicionado",
        "tipo":"TRANE 6000fr INVERTER",
        "precio":1105,

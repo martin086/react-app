@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from 'react-router-dom';
 
 export default function Categories() {
   return (
@@ -18,7 +18,7 @@ export default function Categories() {
             <a className="dropdown-item" href="#">Varios</a>
             <a className="dropdown-item" href="#">Aire Acondicionado</a>
             <div className="dropdown-divider" />
-            <a className="dropdown-item" href="#">Ver Todas</a>
+            <a className="dropdown-item" href="#"><Link className="nav-item" to="/"></Link>Ver Todas</a>
         </div>
     </li>
   )
