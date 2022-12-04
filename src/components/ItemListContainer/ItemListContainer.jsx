@@ -28,8 +28,9 @@ const ItemListContainer = () => {
     
     return (
         <div className="row cardProductos">
-          {productos} 
+          {productos}
         </div>
+
     );
 }
 

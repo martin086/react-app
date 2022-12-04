@@ -1,12 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function CartWidget() {
   return (
-    <ul className="navbar-nav me-right">
-      <li className="nav-item">
-        <button className="nav-link active" href="#"><i className="fa-solid fa-cart-shopping"></i></button>
-      </li>
-      <p>0</p>
-    </ul>
+    <>
+    <button className="btn btn-primary active">
+      <Link className="nav-link active" to={"/cart"}>
+        <i className="fa-solid fa-cart-shopping"></i>
+          <span className="cantCarrito">0</span>
+      </Link>
+    </button>
+    </>
+        
+      
   )
 }
