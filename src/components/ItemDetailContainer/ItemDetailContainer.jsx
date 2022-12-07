@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
             setProducto(prod)
         })
         
-    }, []);
+    }, [id]);
 
     return (
         <div className="card mb-3 container itemDetail">

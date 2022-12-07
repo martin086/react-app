@@ -1,5 +1,10 @@
 import ItemCount from "../ItemCount/ItemCount";
+import { Link } from "react-router-dom";
 const ItemDetail = ({item}) => {
+    
+    const onAdd = (contador) => {
+        console.log(contador)
+    }
     console.log(item)
     return (
         <div className="row g-0">
@@ -12,8 +17,8 @@ const ItemDetail = ({item}) => {
                     <p className="card-text">Tipo: {item.tipo} </p>
                     <p className="card-text">Precio: $ {new Intl.NumberFormat('de-DE').format(item.precio)} </p>
                     <p className="card-text">Stock: {item.stock} </p>
-                    <ItemCount stock= {item.stock}/><br/>
-                    <button className="btn btn-success mt-2">Finalizar Compra</button>
+                    <ItemCount stock={item.stock} onAdd={onAdd}/><br/>
+                    <button className="btn btn-info mt-2"><Link className="nav-link" to={"/cart"}>Ir al Carrito</Link></button>
                 </div>
             </div>
         </div>

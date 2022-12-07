@@ -27,9 +27,11 @@ const ItemListContainer = () => {
     console.log(productos);
     
     return (
-        <div className="row cardProductos">
-          {productos}
-        </div>
+        
+          <div className="row cardProductos card-img-top">
+              {productos}
+          </div>
+        
 
     );
 }

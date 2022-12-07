@@ -9,7 +9,7 @@ const ItemCount = ({stock, onAdd}) => {
 
     const incrementar = () => contador < stock && setContador(contador + 1);
     const decrementar = () => contador > 1 && setContador(contador - 1);
-  
+    
     return (
     <>
     <button onClick={() => decrementar()} className='btn btn-dark mx-2'>-</button>
