@@ -4,7 +4,7 @@ const Categories = () => {
 
   return (
     <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorías</a>
+        <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorías</Link>
         <div className="dropdown-menu">
           <li><button className="dropdown-item"><Link className='nav-link btn btn-secondary' to={"/category/1"}>Caño de Cobre</Link></button></li>  
           <li><button className="dropdown-item"><Link className='nav-link btn btn-secondary' to={"/category/2"}>Aislación</Link></button></li>  
