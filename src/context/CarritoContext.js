@@ -48,7 +48,7 @@ export const CarritoProvider = (props) => {
     }
 
     return (
-        <CarritoContext.Provider value={{carrito, isInCart, addItem, emptyCart, removeItem, getItemQuantity, totalPrice}}>
+        <CarritoContext.Provider value={{carrito, isInCart, addItem, removeItem, emptyCart, getItemQuantity, totalPrice}}>
             {props.children}
         </CarritoContext.Provider>    
     )

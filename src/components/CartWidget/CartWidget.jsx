@@ -1,17 +1,20 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import { useCarritoContext } from '../../context/CarritoContext'
 
-export default function CartWidget() {
+const CartWidget = () => {
+  const {getItemQuantity} = useCarritoContext()
+  
   return (
     <>
-    <button className="btn btn-primary active">
-      <Link className="nav-link active" to={"/cart"}>
-        <i className="fa-solid fa-cart-shopping"></i>
-          <span className="cantCarrito">0</span>
-      </Link>
-    </button>
-    </>
-        
+      <button className="btn btn-primary active mx-2">
+        <Link className="nav-link active" to={"/cart"}>
+          <i className="fa-solid fa-cart-shopping"></i>
+          {getItemQuantity() > 0 && <span className="cantCarrito">{getItemQuantity()}</span>}
+        </Link>
+      </button>
+    </>  
       
   )
 }
+
+export default CartWidget;

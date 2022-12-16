@@ -5,7 +5,7 @@ import { useDarkModeContext } from "../../context/DarkModeContext";
 const Item = ({prod}) => {
     const {darkMode} = useDarkModeContext();
     return (
-        <div className="card border-light mb-3 cardProducto" >
+        <div className={`card cardProducto mb-3 ${darkMode ? 'text-white bg-secondary' : 'border-light'}`}>
             <img src={`../img/${prod.imagen}`} className="card-img-top" alt="..." />
             <div className={`card-body ${darkMode ? 'cardBodyDark' : 'cardBody'}`}>
                 <h5 className="card-title">{prod.nombre}</h5>
