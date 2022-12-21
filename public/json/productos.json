@@ -8,7 +8,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":12,
@@ -19,7 +19,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":13,
@@ -30,7 +30,7 @@
        "unidad":"mt",
        "cantidad":1,
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":14,
@@ -41,7 +41,7 @@
        "unidad":"mt",
        "cantidad":1,
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":15,
@@ -52,7 +52,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":16,
@@ -63,7 +63,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/01-cobre.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/01-cobre.jpg?alt=media&token=e7bd067f-6baf-4ebd-9b0c-48214abde247"
     },
     {
        "id":21,
@@ -74,7 +74,7 @@
        "unidad":"tira 2mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":22,
@@ -85,7 +85,7 @@
        "unidad":"tira 2mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":23,
@@ -96,7 +96,7 @@
        "unidad":"tira 2mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":24,
@@ -107,7 +107,7 @@
        "unidad":"tira 2mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":25,
@@ -117,7 +117,7 @@
        "precio":2.80,
        "unidad":"tira 2mt",
        "cantidad":1, "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":26,
@@ -128,7 +128,7 @@
        "unidad":"tira 2mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/02-aislacion.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/02-aislacion.jpg?alt=media&token=201a5c63-57a4-4c9b-bbf6-38b1ba794f9e"
     },
     {
        "id":31,
@@ -139,7 +139,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":32,
@@ -150,7 +150,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":33,
@@ -161,7 +161,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":34,
@@ -172,7 +172,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":35,
@@ -183,7 +183,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":36,
@@ -194,7 +194,7 @@
        "unidad":"cápsula",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/03-gases.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/03-gases.jpg?alt=media&token=1e81d552-fc46-4eab-a08d-44932186e548"
     },
     {
        "id":41,
@@ -205,7 +205,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/04-cable.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/04-cable.jpg?alt=media&token=0669f8ae-b63a-40b8-8d4d-da18fa5680e9"
     },
     {
        "id":42,
@@ -216,7 +216,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/04-cable.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/04-cable.jpg?alt=media&token=0669f8ae-b63a-40b8-8d4d-da18fa5680e9"
     },
     {
        "id":43,
@@ -227,7 +227,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/04-cable.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/04-cable.jpg?alt=media&token=0669f8ae-b63a-40b8-8d4d-da18fa5680e9"
     },
     {
        "id":44,
@@ -238,7 +238,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/04-cable.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/04-cable.jpg?alt=media&token=0669f8ae-b63a-40b8-8d4d-da18fa5680e9"
     },
     {
        "id":45,
@@ -249,7 +249,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/04-cable.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/04-cable.jpg?alt=media&token=0669f8ae-b63a-40b8-8d4d-da18fa5680e9"
     },
     {
        "id":51,
@@ -260,7 +260,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/05-manguera.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/05-manguera.jpg?alt=media&token=d912a4a3-ab32-49fb-9ac4-446be1538b65"
     },
     {
        "id":52,
@@ -271,7 +271,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/05-manguera.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/05-manguera.jpg?alt=media&token=d912a4a3-ab32-49fb-9ac4-446be1538b65"
     },
     {
        "id":53,
@@ -282,7 +282,7 @@
        "unidad":"mt",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/05-manguera.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/05-manguera.jpg?alt=media&token=d912a4a3-ab32-49fb-9ac4-446be1538b65"
     },
     {
        "id":61,
@@ -293,7 +293,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/06-cinta.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/06-cinta.jpg?alt=media&token=511f0e64-8321-4de7-a51b-a3a81b0149e9"
     },
     {
        "id":62,
@@ -304,7 +304,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/06-cinta.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/06-cinta.jpg?alt=media&token=511f0e64-8321-4de7-a51b-a3a81b0149e9"
     },
     {
        "id":63,
@@ -315,7 +315,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/06-cinta.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/06-cinta.jpg?alt=media&token=511f0e64-8321-4de7-a51b-a3a81b0149e9"
     },
     {
        "id":64,
@@ -326,7 +326,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/06-cinta.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/06-cinta.jpg?alt=media&token=511f0e64-8321-4de7-a51b-a3a81b0149e9"
     },
     {
        "id":71,
@@ -337,7 +337,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":72,
@@ -348,7 +348,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":73,
@@ -359,7 +359,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":74,
@@ -370,7 +370,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":75,
@@ -381,7 +381,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":76,
@@ -392,7 +392,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/07-mensulas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/07-mensulas.jpg?alt=media&token=b74a335d-d0af-41f1-bc89-d440a159baaa"
     },
     {
        "id":81,
@@ -403,7 +403,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":82,
@@ -414,7 +414,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":83,
@@ -425,7 +425,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":84,
@@ -436,7 +436,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":85,
@@ -447,7 +447,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":86,
@@ -458,7 +458,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/08-compresores.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/08-compresores.jpg?alt=media&token=644371cd-be19-4e4e-b743-ab0293e1d911"
     },
     {
        "id":91,
@@ -469,7 +469,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":92,
@@ -480,7 +480,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":93,
@@ -491,7 +491,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":94,
@@ -502,7 +502,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":95,
@@ -513,7 +513,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":96,
@@ -524,7 +524,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/09-herramientas.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/09-herramientas.jpg?alt=media&token=5c1ffa30-5bfb-41d5-a7af-681e4aed1387"
     },
     {
        "id":101,
@@ -535,7 +535,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":102,
@@ -546,7 +546,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":103,
@@ -557,7 +557,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":104,
@@ -568,7 +568,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":105,
@@ -579,7 +579,7 @@
        "unidad":"juego",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":106,
@@ -590,7 +590,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/10-accesorios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/10-accesorios.jpg?alt=media&token=0c722ec2-39dc-4fbc-8d9e-3b0c22a48b54"
     },
     {
        "id":111,
@@ -601,7 +601,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/11-varios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/11-varios.jpg?alt=media&token=88a55d45-3461-42ce-9930-4c5e5e9587fd"
     },
     {
        "id":112,
@@ -612,7 +612,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/11-varios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/11-varios.jpg?alt=media&token=88a55d45-3461-42ce-9930-4c5e5e9587fd"
     },
     {
        "id":113,
@@ -623,7 +623,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/11-varios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/11-varios.jpg?alt=media&token=88a55d45-3461-42ce-9930-4c5e5e9587fd"
     },
     {
        "id":114,
@@ -634,7 +634,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/11-varios.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/11-varios.jpg?alt=media&token=88a55d45-3461-42ce-9930-4c5e5e9587fd"
     },
     {
        "id":121,
@@ -645,7 +645,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":122,
@@ -656,7 +656,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":123,
@@ -667,7 +667,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":124,
@@ -678,7 +678,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":125,
@@ -689,7 +689,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":126,
@@ -700,7 +700,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":127,
@@ -711,7 +711,7 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     },
     {
        "id":128,
@@ -722,6 +722,6 @@
        "unidad":"unidad",
        "cantidad":1, 
        "stock":10,
-       "imagen":"../img/12-aireacondicionado.jpg"
+       "imagen":"https://firebasestorage.googleapis.com/v0/b/myapp-ecommerce-67f3e.appspot.com/o/12-aireacondicionado.jpg?alt=media&token=d63b800f-aec1-4132-abbe-21164830dfe5"
     }
 ]

@@ -17,19 +17,19 @@ const Cart = () => {
                 {
                     carrito.map(prod => 
                         <div className="card mb-3" key={prod.id} style={{maxWidth: '540px'}}>
-                            <div className="row g-0">
+                            <div className="row g-0 justify-content-center">
                                 <div className="col-md-4">
-                                    <img src={`../img/${prod.imagen}`} alt="Producto" className="img-fluid rounded-start" />
+                                    <img src={prod.imagen} alt="Producto" className="img-fluid rounded-start" />
                                 </div>
                             </div>
                             <div className="col-md-8">
-                                <div className="cardbody">
+                                <div className={`card-body ${darkMode ? 'cardBodyDark' : 'cardBody' }`}>
                                     <h5 className="card-title">{`${prod.nombre} ${prod.tipo}`}</h5>
-                                    <p className="card-text">Cantidad: ${prod.cant}</p>
+                                    <p className="card-text">Cantidad: {prod.cant}</p>
                                     <p className="card-text">Precio Unitario: ${new Intl.NumberFormat('de-De').format(prod.precio)}</p>
                                     <p className="card-text">Valor Total: ${new Intl.NumberFormat('de-De').format(prod.precio * prod.cant)}</p>
                                 </div>
-                                <button className="btn btn-danger" onClick={() => removeItem(prod.id)}>Eliminar Producto</button>
+                                <button className="btn btn-danger m-2" onClick={() => removeItem(prod.id)}>Eliminar Producto</button>
                             </div>
                         </div>    
                     )
