@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, addDoc, collection } from "firebase/firestore";
+import { getFirestore, addDoc, getDocs, getDoc, updateDoc, deleteDoc, collection, doc } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -15,6 +15,9 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore();
+
+
+// CRUD Productos
 const cargarBDD = async () => {
     const promise = await fetch('./json/productos.json')
     const productos = await promise.json()
@@ -32,4 +35,50 @@ const cargarBDD = async () => {
     });
 }
 
-export {cargarBDD};
+const getProductos = async () => {
+    const productos = await getDocs(collection(db, "productos"))
+    const items = productos.docs.map(prod => {
+        return {...prod.data(), id: prod.id}
+    })
+    return items;
+}
+
+const getProducto = async (id) => {
+    const producto = await getDoc(doc(db, "productos", id))
+    const item = {...producto.data(), id: producto.id}
+    return item;
+}
+
+const updateProducto = async (id, info) => {
+    const estado = await updateDoc(doc(db, "productos", id), info)
+    return estado;
+}
+
+const deleteProducto = async (id) => {
+    const estado = await deleteDoc(doc(db, "productos", id))
+    return estado;
+}
+
+// Create y Read Ordenes de Compra
+const createOC = async (cliente, precioTotal, fecha) => {
+    const ordenCompra = await addDoc(collection(db, "ordenCompra"),{
+        nombreCompleto: cliente.nombre,
+        email: cliente.email,
+        dni: cliente.dni,
+        celular: cliente.celular,
+        direccion: cliente.direccion,
+        fecha: fecha,
+        precioTotal: precioTotal,
+    })
+
+    return ordenCompra;
+}
+
+const getOC = async (id) => {
+    const ordenCompra = await getDoc(doc(db, "ordenCompra", id))
+    const item = {...ordenCompra.data(), id: ordenCompra.id}
+    return item;
+}
+
+
+export {cargarBDD, getProductos, getProducto, updateProducto, deleteProducto, createOC, getOC};
