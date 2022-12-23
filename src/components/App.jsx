@@ -1,9 +1,11 @@
 import './App.css';
+import 'react-toastify/dist/ReactToastify.css'
 //Router Dom
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 //Context
 import { DarkModeProvider } from '../context/DarkModeContext';
-
+//Toastify
+import { ToastContainer } from 'react-toastify';
 //Components
 import Navbar from './Navbar/Navbar';
 import NotFound from './NotFound/NotFound';
@@ -29,6 +31,7 @@ const App = () => {
             <Route path='/contacto' element={<Contacto/>}/>
             <Route path='*' element={<NotFound/>}/>
           </Routes>
+          <ToastContainer/>
         </DarkModeProvider>
       </BrowserRouter>
     </>
