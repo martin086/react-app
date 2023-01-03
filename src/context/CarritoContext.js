@@ -32,7 +32,7 @@ export const CarritoProvider = (props) => {
         setCarrito([]);
     }
 
-    const removeItem = () => {
+    const removeItem = (id) => {
         setCarrito(carrito.filter(prod => prod.id !== id))
         // const aux = [...carrito]
         // const indice = aux.findIndex(prod => prod.id === id)
