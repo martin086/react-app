@@ -23,7 +23,8 @@ const Checkout = () => {
                     updateProducto(prodCarrito.id, prodBDD)
                 } else {
                     toast.error(`El producto ${prodBDD.nombre} no tiene stock disponible.`)
-                    emptyCart()
+                    emptyCart() //removeItem(prodBDD.id)
+                    navigate("/")
                 }
             })
         })

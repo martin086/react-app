@@ -22,7 +22,7 @@ const ItemListContainer = () => {
             const productsList = products.filter(prod => prod.stock > 0)
             const cardProductos = ItemList({productsList})
             //const prodSort = cardProductos.sort((p1, p2) => p1.idCategoria - p2.idCategoria)
-            setProductos(cardProductos)
+            setProductos(cardProductos);
           })
         }
 
