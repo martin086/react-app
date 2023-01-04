@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { createOC, getOC, getProducto, updateProducto } from '../../assets/firebase';
 import { useCarritoContext } from '../../context/CarritoContext';
 import { toast } from 'react-toastify';
-import OrderForm from '../Form/Form';
+import OrderForm from './Form/Form';
+
 const Checkout = () => {
 
     const {totalPrice, carrito, emptyCart} = useCarritoContext();
@@ -47,7 +48,7 @@ const Checkout = () => {
 
     return (
         <div className="container">
-            <OrderForm onSubmit={consultarFormulario}/>
+            <OrderForm onSubmit={consultarFormulario} ref={datosFormulario}/>
             {/* <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
