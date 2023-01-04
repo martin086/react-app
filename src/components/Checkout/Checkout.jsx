@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { createOC, getOC, getProducto, updateProducto } from '../../assets/firebase';
 import { useCarritoContext } from '../../context/CarritoContext';
 import { toast } from 'react-toastify';
+import OrderForm from '../Form/Form';
 const Checkout = () => {
 
     const {totalPrice, carrito, emptyCart} = useCarritoContext();
@@ -46,7 +47,8 @@ const Checkout = () => {
 
     return (
         <div className="container">
-            <form onSubmit={consultarFormulario} ref={datosFormulario}>
+            <OrderForm onSubmit={consultarFormulario}/>
+            {/* <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
                     <input type="text" className="form-control" name="nombre" required/>
@@ -55,7 +57,6 @@ const Checkout = () => {
                     <label htmlFor="email" className="form-label">Email</label>
                     <input type="email" className="form-control" name="email" required/>
                 </div>
-                {/* poner el required para el mail */}
                 <div className="mb-3">
                     <label htmlFor="email2" className="form-label">Repetir Email</label>
                     <input type="email" className="form-control" name="email2" required/>
@@ -72,9 +73,8 @@ const Checkout = () => {
                     <label htmlFor="direccion" className="form-label">Dirección</label>
                     <input type="text" className="form-control" name="direccion" required/>
                 </div>
-                {/* desactivar boton si el carrito está vacio */}
                 <button type="submit" className="btn btn-primary">Finalizar Compra</button>
-            </form>
+            </form> */}
         </div>
     );
 }

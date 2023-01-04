@@ -1,7 +1,7 @@
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
-  
+    margin-bottom: 14px;
   
   }
   .theme-switch {
@@ -12,7 +12,7 @@
   }
   
   .theme-switch input {
-    display:none;
+    display:none !important;
   }
   
   .slider {
