@@ -26,11 +26,11 @@ npm i
 
 ## Screenshots: 
 
-![Alt text](/myapp/my-app/docs/Screenshot_1.png?raw=true "Home")
-![Alt text](/myapp/my-app/docs/Screenshot_2.png?raw=true "Category")
-![Alt text](/myapp/my-app/docs/Screenshot_3.png?raw=true "ItemDetail")
-![Alt text](/myapp/my-app/docs/Screenshot_4.png?raw=true "Cart")
-![Alt text](/myapp/my-app/docs/Screenshot_5.png?raw=true "Checkout")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_1.png "Home")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_2.png "Category")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_3.png "ItemDetail")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_4.png "Cart")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_5.png "Checkout")
 
 ## License
 
