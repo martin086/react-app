@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-//import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 import { Formik, Form, useField, useFormikContext } from "formik";
 import * as Yup from "yup";
 import styled from "@emotion/styled";
@@ -35,7 +35,7 @@ const MyCheckbox = ({ children, ...props }) => {
   );
 };
 
-// Styled components ....
+// Styled components
 const StyledSelect = styled.select`
   color: var(--blue);
 `;
@@ -59,7 +59,7 @@ const StyledLabel = styled.label`
 `;
 
 
-// And now we can use these
+// Form function
 const OrderForm = () => {
   return (
     <>
@@ -88,10 +88,10 @@ const OrderForm = () => {
           email2: Yup.string()
             .email("Debe coincidir con el mail ingresado")
             .required("Campo requerido"),
-          dni: Yup.number()
-            .min(8, "Debe contener al menos 8 números")
+          dni: Yup.string()
+            .min(7, "Debe contener al menos 7 números")
             .required("Campo requerido"),
-          cel: Yup.number()
+          cel: Yup.string()
             .min(10, "Debe contener al menos 10 números")
             .required("Campo requerido"),
           direccion: Yup.string()
