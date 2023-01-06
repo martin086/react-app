@@ -18,6 +18,7 @@ npm i
 - [Node.js](https://nodejs.org/en/) - evented I/O for the backend.
 - [Bootstrap](https://getbootstrap.com/) - Frontend toolkit.
 - [React-Toastify](https://fkhadra.github.io/react-toastify/introduction) - Toastify is a lightweight, vanilla JS toast notification library.
+- [Formik](https://formik.org/) - Open source form library for React and React Native.
 - [Firestore](https://firebase.google.com/) - NoSQL Database.
 
 ## Deployed with:
