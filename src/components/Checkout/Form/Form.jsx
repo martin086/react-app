@@ -60,7 +60,7 @@ const StyledLabel = styled.label`
 
 
 // Form function
-const OrderForm = () => {
+const OrderForm = ({sendOrder}) => {
   return (
     <>
       <h2>Por favor completa los campos para finalizar tu compra.</h2>
@@ -100,10 +100,7 @@ const OrderForm = () => {
             .required("Required")
             .oneOf([true], "Debes aceptar los términos y condiciones para continuar."),
         })}
-        onSubmit={async (values, { setSubmitting }) => {
-          await new Promise(r => setTimeout(r, 500));
-          setSubmitting(false);
-        }}
+        onSubmit={(values) => sendOrder(values)}
       >
         <Form>
           <MyTextInput

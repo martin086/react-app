@@ -14,7 +14,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const db = getFirestore();
+const db = getFirestore(app);
 
 
 // CRUD Productos
@@ -62,15 +62,15 @@ const deleteProducto = async (id) => {
 // Create y Read Ordenes de Compra
 const createOC = async (cliente, precioTotal, fecha) => {
     const ordenCompra = await addDoc(collection(db, "ordenCompra"),{
-        nombreCompleto: cliente.nombre,
-        email: cliente.email,
-        dni: cliente.dni,
-        celular: cliente.celular,
-        direccion: cliente.direccion,
-        fecha: fecha,
-        precioTotal: precioTotal,
+    nombreCompleto: `${cliente.firstName} ${cliente.lastName}` ,
+    email: cliente.email,
+    dni: cliente.dni,
+    celular: cliente.cel,
+    direccion: cliente.direccion,
+    fecha: fecha,
+    precioTotal: precioTotal,
     })
-
+    
     return ordenCompra;
 }
 
