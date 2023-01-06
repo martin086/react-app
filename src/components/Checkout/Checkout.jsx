@@ -26,7 +26,7 @@ const Checkout = () => {
             })
         })
 
-        createOC(cliente, totalPrice(), new Date().toISOString().slice(0,10)).then(ordenCompra => {
+        createOC(cliente, totalPrice(), new Date().toISOString().slice(0,10), carrito).then(ordenCompra => {
             getOC(ordenCompra.id).then(item => {
                 toast.success(`¡Gracias por su compra! Su n° de orden es: ${item.id}`)
                 emptyCart()
