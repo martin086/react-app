@@ -48,7 +48,7 @@ const Checkout = () => {
 
     return (
         <div className="container">
-            <OrderForm onSubmit={consultarFormulario} ref={datosFormulario}/>
+            <OrderForm onSubmit={consultarFormulario} innerRef={datosFormulario}/>
             {/* <form onSubmit={consultarFormulario} ref={datosFormulario}>
                 <div className="mb-3">
                     <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
