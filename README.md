@@ -1,6 +1,7 @@
 ## React-Proyecto-Final
 
-_Proyecto de E-commerce utilizando el framework React para la comisión n°41100 de CoderHouse._
+_Proyecto final de E-commerce utilizando el framework React para la comisión n°41100 de CoderHouse._
+_E-commerce final project developed with React as part of the Coderhouse React Course n°41100._
 
 ## Installation
 
@@ -23,7 +24,7 @@ npm i
 
 ## Deployed with:
 
-- [Vercel](https://react-ff8ox2p1i-martin086.vercel.app/)
+- [Vercel](https://react-ff8ox2p1i-martin086.vercel.app/) - Cloud platform for static sites and Serverless Functions
 
 ## Screenshots: 
 
@@ -32,6 +33,7 @@ npm i
 ![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_3.png "ItemDetail")
 ![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_4.png "Cart")
 ![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_5.png "Checkout")
+![Alt text](https://github.com/martin086/react-app/blob/master/docs/Screenshot_6.png "OC_Confirmed")
 
 ## License
 

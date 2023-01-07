@@ -12,7 +12,7 @@ const ItemListContainer = () => {
     useEffect(() => {
         if(category) {
           getProductos().then(products => {
-            const productsList = products.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === parseInt(category));
+            const productsList = products.filter(prod => prod.stock > 0).filter(prod => prod.idCategoria === parseInt(category)).sort((p1, p2) => p1.idCategoria - p2.idCategoria);
             const cardProductos = ItemList({productsList})
             //const prodSort = cardProductos.sort((p1, p2) => p1.idCategoria - p2.idCategoria)
             setProductos(cardProductos);

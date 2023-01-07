@@ -28,7 +28,6 @@ const cargarBDD = async () => {
             tipo: prod.tipo,
             precio: prod.precio,
             unidad: prod.unidad,
-            cantidad: prod.cantidad, 
             stock: prod.stock,
             imagen: prod.imagen,
         })

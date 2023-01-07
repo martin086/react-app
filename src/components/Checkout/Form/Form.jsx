@@ -1,9 +1,10 @@
-import React, { useEffect, forwardRef, useImperativeHandle } from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { Formik, Form, useField, useFormikContext } from "formik";
 import * as Yup from "yup";
 import styled from "@emotion/styled";
 import "../../../styles-form.css";
+import { useDarkModeContext } from "../../../context/DarkModeContext";
 
 const MyTextInput = ({ label, ...props }) => {
   // useField() returns [formik.getFieldProps(), formik.getFieldMeta()]
@@ -61,9 +62,10 @@ const StyledLabel = styled.label`
 
 // Form function
 const OrderForm = ({sendOrder}) => {
+  const {darkMode} = useDarkModeContext()
   return (
     <>
-      <h2>Por favor completa los campos para finalizar tu compra.</h2>
+      <h1 className={`${darkMode ? 'text-light' : 'text-dark'}`}>Por favor completa tus datos para finalizar tu compra:</h1>
       <Formik
         initialValues={{
           firstName: "",
@@ -75,27 +77,27 @@ const OrderForm = ({sendOrder}) => {
           direccion: "",
           acceptedTerms: false, // added for our checkbox
         }}
-        validationSchema={Yup.object({
+        validationSchema={Yup.object().shape({
           firstName: Yup.string()
             .max(15, "Debe contener 15 caracteres o menos")
-            .required("Campo requerido"),
+            .required("Nombre requerido"),
           lastName: Yup.string()
             .max(20, "Debe contener 20 caracteres o menos")
-            .required("Campo requerido"),
+            .required("Apellido requerido"),
           email: Yup.string()
             .email("Debe ser un email válido")
-            .required("Campo requerido"),
+            .required("Email requerido"),
           email2: Yup.string()
-            .email("Debe coincidir con el mail ingresado")
-            .required("Campo requerido"),
+            .oneOf([Yup.ref('email'), null], "Debe coincidir con el mail ingresado")
+            .required("Repita el email ingresado"),
           dni: Yup.string()
             .min(7, "Debe contener al menos 7 números")
-            .required("Campo requerido"),
+            .required("DNI requerido"),
           cel: Yup.string()
             .min(10, "Debe contener al menos 10 números")
-            .required("Campo requerido"),
+            .required("Celular requerido"),
           direccion: Yup.string()
-            .required("Campo requerido"),
+            .required("Dirección requerida"),
           acceptedTerms: Yup.boolean()
             .required("Required")
             .oneOf([true], "Debes aceptar los términos y condiciones para continuar."),
@@ -113,19 +115,19 @@ const OrderForm = ({sendOrder}) => {
             label="Apellido"
             name="lastName"
             type="text"
-            placeholder="Garcia"
+            placeholder="Perez"
           />
           <MyTextInput
             label="Email"
             name="email"
             type="email"
-            placeholder="juangarcia@gmail.com"
+            placeholder="juanperez@gmail.com"
           />
           <MyTextInput
-            label="Repetir Email"
+            label="Confirmar Email"
             name="email2"
             type="email"
-            placeholder="juangarcia@gmail.com"
+            placeholder="juanperez@gmail.com"
           />
           <MyTextInput
             label="DNI"
@@ -148,8 +150,11 @@ const OrderForm = ({sendOrder}) => {
           <MyCheckbox name="acceptedTerms">
             Acepto los términos y condiciones.
           </MyCheckbox>
-
-          <button type="submit">Finalizar Compra</button>
+          <div>
+            <button type="reset">Borrar Formulario</button>
+            <button type="submit">Finalizar Compra</button>
+          </div>
+          
         </Form>
       </Formik>
     </>
